@@ -1,9 +1,14 @@
 {
+  "name": "acb",
+  "version": "0.1.0",
+  "description": "Decode adobe color book(.acb) file into json.",
   "devDependencies": {
     "coffeescript": "^2.0.1",
     "nodemon": "^1.12.1"
   },
   "scripts": {
     "watch": "nodemon --ignore converted --ext coffee,acb index.coffee"
-  }
+  },
+  "author": "Rong Shen <rong.shen@gmail.com>",
+  "license": "ISC",
 }
