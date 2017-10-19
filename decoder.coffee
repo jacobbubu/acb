@@ -1,8 +1,5 @@
 { getBasename } = require './utils'
 
-guidTest = (s) ->
-    /^(\{){0,1}[0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12}(\}){0,1}$/.test s
-
 decoder = (buf) ->
     offset = 0
 
