@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "coffeescript": "^2.0.1",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "watch": "nodemon --ignore converted --ext coffee,acb index.coffee"
+  }
+}
