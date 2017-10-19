@@ -10,5 +10,5 @@
     "watch": "nodemon --ignore converted --ext coffee,acb index.coffee"
   },
   "author": "Rong Shen <rong.shen@gmail.com>",
-  "license": "ISC",
+  "license": "ISC"
 }
